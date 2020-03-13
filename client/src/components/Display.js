@@ -1,4 +1,5 @@
-import PlayerCard from './PlayerCard';
+import React from 'react';
+import {PlayerCard }from './PlayerCard';
 
 export const Display = props => {
     return (
