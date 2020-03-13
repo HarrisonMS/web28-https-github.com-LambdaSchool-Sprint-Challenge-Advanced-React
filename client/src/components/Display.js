@@ -9,7 +9,7 @@ export const Display = props => {
         setDarkMode(!darkMode)
     }
     return (
-        <div>
+        <div className= 'border-blue-900'>
             <button className='darkModeToggle' onClick={toggleDarkMode}> Go Dark</button>
             {props.playerData.map((player) => {
                 return <PlayerCard

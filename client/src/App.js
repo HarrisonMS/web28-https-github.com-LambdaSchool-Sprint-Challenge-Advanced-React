@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import{ Display} from './components/Display'
-import './App.css';
+import './styles/index.css';
 
 class App extends React.Component {
   constructor(props) {
