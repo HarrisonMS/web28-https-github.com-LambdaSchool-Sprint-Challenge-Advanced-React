@@ -10,7 +10,7 @@ export const Display = props => {
     }
     return (
         <div>
-            <button onClick={toggleDarkMode}> Dark mode</button>
+            <button className='darkModeToggle' onClick={toggleDarkMode}> Go Dark</button>
             {props.playerData.map((player) => {
                 return <PlayerCard
                 key={player.id}

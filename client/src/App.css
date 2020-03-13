@@ -31,3 +31,15 @@
     transform: rotate(360deg);
   }
 }
+.darkModeToggle {
+  background: papayawhip;
+  border-radius: 50px;
+  border: 1px solid black;
+  height: 20px;
+  position: relative;
+  width: 80px;
+}
+.dark-mode {
+  color: #fff;
+  background-color: rgb(19, 3, 22);
+}
