@@ -44,9 +44,17 @@
   background-color: rgb(19, 3, 22);
 }
 .playerWrapper {
+  color:#FD6A02;
+  margin: 10px;
+  border: 1px solid rgb(206, 100, 13);
+  background: rgb(139,67,244);
+  background: linear-gradient(0deg, rgba(139,67,244,1) 0%, rgba(35,0,85,1) 76%);
+  width: 300px;
+}
+.playersWrapper {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-
+  margin: 20px;
   padding: 40px;
 }
