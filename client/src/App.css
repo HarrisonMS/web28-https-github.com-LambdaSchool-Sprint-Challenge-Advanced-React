@@ -62,3 +62,11 @@
 .headerTitle {
   color:#FD6A02;
 }
+@media only screen and (max-width: 700px) {
+  .playersWrapper {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items:center;
+  }
+}
