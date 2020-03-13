@@ -43,3 +43,10 @@
   color: #fff;
   background-color: rgb(19, 3, 22);
 }
+.playerWrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+
+  padding: 40px;
+}
