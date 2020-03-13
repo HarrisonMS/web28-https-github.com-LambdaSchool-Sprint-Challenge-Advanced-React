@@ -1,7 +1,8 @@
 import React from 'react';
 import axios from 'axios';
 import{ Display} from './components/Display'
-import './styles/index.css';
+import './App.css'; // reg css style
+// import './styles/index.css'; // tailwinds style
 
 class App extends React.Component {
   constructor(props) {
