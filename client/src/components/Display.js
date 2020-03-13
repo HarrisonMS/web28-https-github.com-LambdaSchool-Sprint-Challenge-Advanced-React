@@ -1,9 +1,16 @@
 import React from 'react';
-import {PlayerCard }from './PlayerCard';
+import { PlayerCard }from './PlayerCard';
+import { useDarkMode } from '../hooks/useDarkMode';
 
 export const Display = props => {
+    const [darkMode, setDarkMode] = useDarkMode();
+    const toggleDarkMode = e => {
+        e.preventDefault();
+        setDarkMode(!darkMode)
+    }
     return (
         <div>
+            <button onClick={toggleDarkMode}> Dark mode</button>
             {props.playerData.map((player) => {
                 return <PlayerCard
                 key={player.id}
