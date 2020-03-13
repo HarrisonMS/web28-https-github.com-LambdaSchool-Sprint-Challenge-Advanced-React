@@ -4,7 +4,7 @@ export const PlayerCard = props => {
         <div className ='playerWrapper'>
             <h2>Name: {props.name}</h2>
             <p>Country: {props.country}</p>
-            <p>Google searches:{' ' + props.searches}</p>
+            <p>Google searches: {props.searches}</p>
         </div>
     )
 }
