@@ -32,13 +32,14 @@
   }
 }
 .darkModeToggle {
+  font-size: 20px;
   color:black;
   background-color:  #FD6A02;
-  border-radius: 50px;
+  border-radius: 8px;
   border: 1px solid black;
-  height: 20px;
+  height: 30px;
   position: relative;
-  width: 80px;
+  width: 100px;
 }
 .dark-mode {
   color: #fff;
@@ -57,9 +58,10 @@
   flex-flow: row wrap;
   justify-content: space-between;
   margin: 20px;
-  padding: 40px;
+  padding: 20px;
 }
 .headerTitle {
+  margin-top:50px;
   color:#FD6A02;
 }
 @media only screen and (max-width: 700px) {
