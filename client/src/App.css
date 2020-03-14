@@ -31,7 +31,7 @@
     transform: rotate(360deg);
   }
 }
-.darkModeToggle {
+.button {
   font-size: 20px;
   color:black;
   background-color:  #FD6A02;
@@ -44,6 +44,9 @@
 .dark-mode {
   color: #fff;
   background-color: rgb(19, 3, 22);
+}
+.groupedByCountry {
+ border: 1p solid red;
 }
 .playerWrapper {
   color:#FD6A02;

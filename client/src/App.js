@@ -10,6 +10,7 @@ class App extends React.Component {
     this.state = {
       users: []
     }
+    console.log('state',this.state)
   }
   componentDidMount() {
     axios.get(`http://localhost:5000/api/players`)
@@ -27,7 +28,7 @@ class App extends React.Component {
     return (
       <div className="App">
       <h1 className='headerTitle'>Women's World Cup players</h1>
-      <Display playerData={this.state.users} />
+      <Display playerData={this.state.users } />
       </div>
     );    
   }
